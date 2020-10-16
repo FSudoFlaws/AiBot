@@ -7,13 +7,13 @@ from textblob import TextBlob
 sentence = "Hey I'm Good"
 
 # TextBlob in pass parameter
-text = TextBlob(sentences)
+text = TextBlob(sentence)
 
 # Check polarity
 plrty = text.sentiment.polarity
 
 # print polarity
-print(pltry)
+print(plrty)
 
 if plrty == 0:
     print("good")

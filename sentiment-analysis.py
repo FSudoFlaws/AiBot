@@ -18,6 +18,6 @@ print(plrty)
 if plrty == 0:
     print("good")
 elif plrty > 0:
-    print(:"positive sentence")
+    print("positive sentence")
 elif plrty < 0:
     print("bad sentence")        
